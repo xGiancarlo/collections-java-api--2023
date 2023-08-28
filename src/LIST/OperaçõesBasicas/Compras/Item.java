@@ -8,15 +8,12 @@ public class Item {
     public Item(String nome, double preço, int quantidade) {
     }
 
-    public void nome(String nome){
+    public void nome(String nome, double preço, int quantidade){
         this.nome = nome;
-    }
-    public void preço(double preço){
         this.preço = preço;
-    }
-    public void quantidade(int quantidade){
         this.quantidade = quantidade;
     }
+
     public String getNome() {
         return nome;
     }
@@ -33,6 +30,8 @@ public class Item {
     public String toString() {
         return "Item{" +
                 "nome='" + nome + '\'' +
+                ", preço=" + preço +
+                ", quantidade=" + quantidade +
                 '}';
     }
 }

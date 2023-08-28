@@ -1,4 +1,5 @@
-package LIST.OperaçõesBasicas;
+package LIST.OperaçõesBasicas.Tarefas;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +21,6 @@ public class ListaTarefa {
             }
         }
        tarefaList.removeAll(tarefasParaRemover);
-       //tarefaList.removeAll()
     }
     public static int obterNumeroTotalTarefas(){
         return tarefaList.size();
